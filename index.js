@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/SimpleTodo', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://showmya3:ZLm1JyS5epolrjEN@todoapp.71fqp.mongodb.net/?retryWrites=true&w=majority&appName=TodoApp', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error(err));
 
