@@ -4,14 +4,14 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = 4000;
 
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://showmya3:ZLm1JyS5epolrjEN@todoapp.71fqp.mongodb.net/?retryWrites=true&w=majority&appName=TodoApp', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://showmya3:ZLm1JyS5epolrjEN@todoapp.71fqp.mongodb.net/?retryWrites=true&w=majority&appName=TodoApp', { useNewUrlParser: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error(err));
 
