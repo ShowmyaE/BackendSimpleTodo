@@ -1,0 +1,24 @@
+[
+    { "name": "Buy a Car", 
+    "completed": false ,
+     "catregory":"Home",
+    "priority":"Medium"
+},
+
+    { "name": "Learn Node Js", 
+    "completed": true ,
+     "catregory":"Learning",
+    "priority":"High"
+},
+{ "name": "Fix the Bug", 
+"completed": false ,
+ "catregory":"Work",
+"priority":"Medium"
+},
+{ "name": "Clean The Garden", 
+"completed": true ,
+ "catregory":"Home",
+"priority":"Low"
+}
+
+]
